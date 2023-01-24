@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(168, 202, 202);
+}
+
+header{
+    background-color: hsl(132, 80%, 44%);
+}
+
+main {
+    background-image: url(background.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size:cover;
+    padding: 10px;
+    
+
+    /* background: white url(Elephant.jpg) no-repeat  fixed center center/cover; */
+    
+
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    background-color: rgb(247, 131, 131);
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+a {
+    color: aliceblue;
+    text-decoration:none;
+   
+}
+
+.container {
+    width: 200px;
+    background-color: rgb(217, 109, 163);
+    /* border: 10px solid rgb(235, 233, 87); */
+    padding: 10px;
+    border: 5px solid rgb(134, 64, 239);    /* solid, dotted, and dashed border */
+    border-radius: 15px;
+    
+}
+
+img {
+    width: 200px;
+    height: 100%;
+    
+}
+
+section{
+    background-color: cornsilk;
+    
+}
+
+.box {
+    display:inline-block;
+    height: 120px;
+    width: 120px;
+     /* background-color: rgb(223, 58, 58); */
+    margin: 10px;
+}
+
+.box1 {
+    background-color: rgb(138, 10, 144);
+    border: 5px dotted white;
+}
+.box2{
+    background-color: rgb(111, 170, 243);
+    border: 5px solid white;
+    border-style: double;
+}
+
+.box3 {
+    background-color: rgb(46, 88, 79);
+    border-top: 5px solid green;
+    border-bottom: 5px solid blue;
+    border-left: 5px solid red;
+    border-right: 5px solid yellow; 
+
+}
+
+.box4 {
+    background-color:rgb(142, 187, 109);
+    border-radius: 20px;
+    border:5px dashed lightyellow;
+
+}
+
+.circle1 {
+    background-color: rgb(214, 91, 91);
+    border-radius: 100px;
+    border: 5px dotted white;
+
+}

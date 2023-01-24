@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(218, 196, 168);
+    background-image: url('background.jpg');
+    
+}
+
+img{
+    width: 500px;
+    height: 100%;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    display: inline;
+    display: block;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;   /* provides space between for example nav list */
+    width: 200px;
+}

@@ -1,0 +1,10 @@
+p {color:green; font-size: 20px;font-family:Arial, Helvetica, sans-serif
+}
+body{background-color:antiquewhite; text-align: center;
+}
+
+#p2_color{color: blueviolet; font-weight: bold;}
+.my_class{color: black;}
+.img{border:black; border-radius: 50px;}
+
+/* this is a comment */
