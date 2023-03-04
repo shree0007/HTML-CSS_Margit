@@ -1,0 +1,72 @@
+* {
+    margin: 0;                        /* Universal reset */
+    padding: 0;
+    box-sizing: border-box;              
+}
+
+
+body{
+    background-color: rgb(232, 161, 236);
+    font-family: 'open sans', sans-serif;
+   
+    
+}
+
+input, textarea, select{
+    font-family: inherit;
+}
+
+header{
+    background-color: rgb(62, 67, 65);
+    color: white;
+    
+}
+
+
+
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+   
+} 
+
+nav ul li a {
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    
+}
+
+main, header, h2{
+    padding: 20px;
+    
+}
+h2, .box{
+    padding-left: 20px;
+    
+}
+h2{
+    font-size: 50px;
+    padding: 150px 0;
+    text-align: center;
+
+
+
+}
+
+.box{
+    background-color: coral;
+    height: 100px;
+    width:100px;
+   padding: 20px;
+   border-radius: 5px;
+   margin:20px;                 /*  from all sides in order top-right-bottom-left*/
+   float: left;
+}
+
+
+
+p{
+    line-height: 1.5;  /* space between two lines in paragraph*/
+}
